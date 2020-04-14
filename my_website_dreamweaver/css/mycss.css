@@ -1,0 +1,61 @@
+@charset "UTF-8";
+* {
+margin: 0;
+padding: 0;
+}
+
+.Navigation {
+    font-family: Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', 'serif'sans-serif;
+    font-size: x-large;	
+}
+.Navigation li {
+	display: inline;
+	padding-right: 70px
+}
+body {
+    background-image: url(../images/bryan-garces-zwo-0E7l1ZI-unsplash.jpg);
+}
+
+h1 {
+	color:#E9B12E;
+	font-family: 'Odibee Sans', cursive;
+}
+h2 {
+	color: #E465C9
+}
+
+body {
+	height: 100%;
+	margin:0;
+	text-align: center;
+	width: 100%;
+}
+div {
+	 margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 80px;
+  margin-left: 80px;
+}
+.maddie {
+    color: #E9B12E;
+    font-weight: bold;
+    font-size: x-large;
+}
+header {
+    background-image: url(../images/s-o-c-i-a-l-c-u-t-OjnmCKmzr3A-unsplash.jpg);
+    padding: 60px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 70px;
+}
+
+footer {
+	padding: 60px;
+    text-align: center;
+    color: #E9B12E; 
+	font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+	font-weight: bold; 
+	background-image: url(../images/s-o-c-i-a-l-c-u-t-OjnmCKmzr3A-unsplash.jpg);
+	
+}

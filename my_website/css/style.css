@@ -1,0 +1,136 @@
+@charset "UTF-8";
+/** {
+margin: 0;
+padding: 0;
+}
+*/
+
+@font-face {
+  font-family: aileron;
+  src: url(Aileron-Light.otf);
+}
+
+.PageBody {
+  /*background-color: #333333;*/
+    background-color: #e8e9eb !important;
+    place-items: center;
+    height: 100%;
+    margin:0;
+    text-align: center;
+    width: 100%;
+}
+
+.PageBody h1 {
+	color:#E9B12E;
+	font-family: 'Odibee Sans', cursive;
+}
+
+.PageBody h2 {
+	color: #E465C9
+}
+
+#infoContainer {
+    margin-top: 4%;
+    margin-bottom: 7%;
+}
+
+#containerBorder {
+    box-sizing: border-box;
+    border-width: 3px ;
+    border-style: solid;
+    border-image: 
+    linear-gradient(
+      to bottom, 
+      red, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+}   
+
+#infoContainerPhotos {
+	 margin-top: 4%;
+    margin-bottom: 7%;
+    padding: 1rem;
+    border-width: 3px;
+    border-style: solid;
+    border-image: 
+    linear-gradient(
+      to bottom, 
+      red, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+}
+
+header {
+    background-image: url(../images/s-o-c-i-a-l-c-u-t-OjnmCKmzr3A-unsplash.jpg);
+    padding: 60px;
+    color: #333333;
+    text-align: center;
+    font-size: 70px;
+    font-family: aileron;
+}
+
+footer {
+	padding: 60px;
+    text-align: center;
+    color: #333333;
+	font-family: aileron;
+    font-size: 20px;
+	background-image: url(../images/s-o-c-i-a-l-c-u-t-OjnmCKmzr3A-unsplash.jpg);	
+}
+
+.footer-content {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+#photos {
+   /* Prevent vertical gaps */
+   line-height: 0;
+
+   -webkit-column-count: 3;
+   -webkit-column-gap:   0px;
+   -moz-column-count:    3;
+   -moz-column-gap:      0px;
+   column-count:         3;
+   column-gap:           0px;
+}
+
+#photos img {
+  /* Just in case there are inline attributes */
+  width: 100% !important;
+  height: auto !important;
+}
+
+@media (max-width: 800px) {
+  #photos {
+  -moz-column-count:    4;
+  -webkit-column-count: 4;
+  column-count:         4;
+  }
+}
+@media (max-width: 600px) {
+  #photos {
+  -moz-column-count:    3;
+  -webkit-column-count: 3;
+  column-count:         3;
+  }
+}
+@media (max-width: 450px) {
+  #photos {
+  -moz-column-count:    2;
+  -webkit-column-count: 2;
+  column-count:         2;
+  }
+}
+@media (max-width: 400px) {
+  #photos {
+  -moz-column-count:    1;
+  -webkit-column-count: 1;
+  column-count:         1;
+  }
+}
+
+/*body {
+  margin: 0;
+  padding: 0;
+}*/

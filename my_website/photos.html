@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<meta charset="UTF-8">
+  		<meta name="description" content="Madlen's uni project">
+  		<meta name="keywords" content="HTML,CSS">
+  		<meta name="author" content="Madlen B. Stoyanova">
+		<title>Madlen's Project</title>
+
+    	<link href="css/style.css" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap" rel="stylesheet">
+ 		<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+ 		<script src="js/jquery.min.js"></script>
+
+
+	</head>
+	
+	
+	<body class="PageBody">
+
+		<script type="text/javascript">console.log("test");</script>
+ 		
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="d-md-flex d-block flex-row mx-md-auto mx-0">
+
+		    <ul class="navbar-nav mr-auto">
+		      <li class="nav-item">
+		        <a class="nav-link" href="index.html">Home </a>
+		      </li>
+		      <li class="nav-item active">
+		        <a class="nav-link" href="#">My Photos <span class="sr-only">(current)</span></a>
+		      </li>
+		      <li>
+		      	<a class="nav-link" href="#">About me</a>
+		      </li>
+		    </ul>
+			</div>
+		</nav>
+		
+		<header>madlen's website</header>
+		
+		<div class="row justify-content-center" id="infoContainerPhotos" style="margin-left:25%; margin-right:25%; width:50% !important" >
+			<h1>My Photos</h1>
+			<section id="photos"></section>
+    	</div>
+
+    	<script type="text/javascript"> 		
+			console.log("test2");
+			var allImages = "";
+
+			for (var i = 1; i <= 12; i++) {
+  				allImages += '<img src="images/madlen/'+i+'.jpg"/>';
+			}
+
+			$('#photos').append(allImages);
+			console.log(allImages);
+ 		</script>
+	</body>
+	<footer> 
+		<div id="footer-content">
+			<p>© 2020 Copyright: madlenka i didka be </p>
+		</div>
+	</footer>
+</html>
+

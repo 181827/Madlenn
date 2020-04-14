@@ -1,23 +1,80 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 		<meta charset="UTF-8">
   		<meta name="description" content="Madlen's uni project">
   		<meta name="keywords" content="HTML,CSS">
   		<meta name="author" content="Madlen B. Stoyanova">
 		<title>Madlen's Project</title>
-	</head>
 
-	<body>
-		<h1> Madlen's heading </h1>
-		<p> Paragaph example </p>
-		<p> Another paragraph </p>
-		<p> And that's me </p>
-		<img src="images/mypicture.png" alt="picture of me" height="400" width="400" />
-		<!-- Everything here is a comment (not rendered) -->
-		<!-- br tag used = break line -->
-		<br /> 
-		<a href="https://www.buas.nl/"> Click for buas.nl </a>
+    	<link href="css/style.css" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap" rel="stylesheet">
+ 		<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+ 	
+
+	</head>
+	
+	
+	<body class="PageBody">
+		
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="d-md-flex d-block flex-row mx-md-auto mx-0">
+
+		    <ul class="navbar-nav mr-auto">
+		      <li class="nav-item active">
+		        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="photos.html">My Photos</a>
+		      </li>
+		      <li>
+		      	<a class="nav-link" href="about.html">About me</a>
+		      </li>
+		    </ul>
+			</div>
+		</nav>
+		
+		<header>madlen's website</header>
+		<div id="infoContainer">
+			<div class="container">
+			<div class="row justify-content-center">
+    			<div class="col-md-3 col-sm-6 col-xs-12" id="containerBorder">
+    				<h1> About me </h1>
+    				<p>
+			 			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nisl orci, malesuada at varius nec, ultrices sed elit. Integer in tortor est. Pellentesque semper eu massa eget maximus. Suspendisse porttitor ex vel augue fringilla, a mattis enim cursus. Nam molestie varius ligula, ultrices aliquam mi varius at. Quisque feugiat augue nulla, ut gravida magna elementum quis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam interdum justo nec mi mollis rutrum.
+    				</p>
+        		</div>
+
+        		<div class="col-md-3 col-sm-6 col-xs-12">
+        			<h1> My hobbies </h1>
+    				<p>
+			 			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nisl orci, malesuada at varius nec, ultrices sed elit. Integer in tortor est. Pellentesque semper eu massa eget maximus. Suspendisse porttitor ex vel augue fringilla, a mattis enim cursus. Nam molestie varius ligula, ultrices aliquam mi varius at. Quisque feugiat augue nulla, ut gravida magna elementum quis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam interdum justo nec mi mollis rutrum.
+    				</p>
+        		</div>
+
+    			<div class="col-md-3 col-sm-6 col-xs-12" id="containerBorder">
+    				<h1> My university </h1>
+    				<p>
+			 			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nisl orci, malesuada at varius nec, ultrices sed elit. Integer in tortor est. Pellentesque semper eu massa eget maximus. Suspendisse porttitor ex vel augue fringilla, a mattis enim cursus. Nam molestie varius ligula, ultrices aliquam mi varius at. Quisque feugiat a
+    				</p>
+    				<p>
+    					Want to go to my university?
+    				</p>
+    				<a href="https://www.buas.nl/" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Click here</a>
+    			</div>
+    		</div>
+			</div>
+		</div>
+		
+	<footer> 
+		<div id="footer-content">
+			<p>© 2020 Copyright: madlenka i didka be </p>
+		</div>
+	</footer>
+		<script src="js/jquery.min.js"></script>
+ 		<script src="js/bootstrap.min.js"></script>
 	</body>
 </html>
 
